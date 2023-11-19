@@ -65,7 +65,7 @@ const TodoItem = (props) => {
     return (
         <ListItem secondaryAction={
           <IconButton edge="end" aria-label="comments" onClick={() => props.onRemoveClick(props.todoItem)}>
-            <button>delete</button>
+            <button>delete1</button>
           </IconButton>
         }>
           <ListItemButton role={undefined} onClick={() => props.onTodoItemClick(props.todoItem)} dense>
